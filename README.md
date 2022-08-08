@@ -2,7 +2,7 @@
 
 Example UI journey tests using C#.
 
-This repository can be used to quickly create a UI test suite.
+The example test within this repository runs against the [Sweet Shop Project|https://sweetshop.netlify.app/].
 
 This repository is configured to perform UI testing using Chrome. Chrome is
 specified within `public void Setup()` of `Browser.cs`.
@@ -10,6 +10,8 @@ specified within `public void Setup()` of `Browser.cs`.
 This project makes use of the PageObjectModel and uses fluent chaining.
 
 ## Generating a new UI Test project using this template
+This repository can be used to quickly create a UI test suite.
+
 To create a new UI Test project using this repository as a template, click on
 `Use this template`.
 

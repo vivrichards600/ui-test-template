@@ -1,7 +1,7 @@
 ﻿using System;
-using OpenQA.Selenium.Chrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 
 namespace ui_test_template
 {

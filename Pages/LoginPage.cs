@@ -4,7 +4,6 @@ namespace ui_test_template
 {
     public class LoginPage : BasePage
     {
-        private readonly IWebDriver driver;
         public LoginPage(IWebDriver _driver) => driver = _driver;
         readonly string Url = "https://sweetshop.netlify.app/login.html";
         public readonly string PageTitle = "Sweet Shop";
@@ -12,7 +11,7 @@ namespace ui_test_template
         public LoginPage LoadPage()
         {
             driver.Navigate().GoToUrl(Url);
-            OnPage(driver, PageTitle);
+            OnPage(PageTitle);
             return this;
         }
 

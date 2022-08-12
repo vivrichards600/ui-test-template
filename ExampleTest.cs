@@ -17,6 +17,5 @@ namespace ui_test_template
             AccountPage accountPage = new AccountPage(driver);
             Assert.AreEqual(accountPage.ActualPageHeadingText, accountPage.ExpectedPageHeadingText);
         }
-
     }
 }

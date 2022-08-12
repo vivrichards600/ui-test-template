@@ -1,6 +1,6 @@
 # ui-test-template
 
-Example UI journey tests using C#.
+Example UI journey tests using C#, Selenium.Webdriver and SeleniumExtras.WaitHelpers.
 
 The example test within this repository runs against the [Sweet Shop Project|https://sweetshop.netlify.app/].
 
